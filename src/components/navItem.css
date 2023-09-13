@@ -1,0 +1,20 @@
+.icon-text-container {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+.icon {
+    padding-right: 0.8rem;
+    color: red;
+}
+
+.text {
+    color: #272e4e;
+}
+
+h2 {
+    font-weight: 400;
+}
