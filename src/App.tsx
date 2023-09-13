@@ -2,10 +2,12 @@ import { useState } from 'react'
 import './App.css'
 import { Icons } from './components/Assets'
 import IconText from './components/navItem'
+import Upgrade from './components/upgrade'
 
 function App() {
   return (
     <>
+
       <main className="main">
 
         <div className="rowDivs">
@@ -27,7 +29,7 @@ function App() {
             <div className="logout" ></div>
 
             <div className="upgrade">
-
+              <Upgrade />
             </div>
 
             <div>

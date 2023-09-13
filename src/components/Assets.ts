@@ -61,6 +61,7 @@ import { ReactComponent as FourSquares } from '../assets/icons/four-squares.svg'
 import { ReactComponent as Tasks } from '../assets/icons/tasks.svg';
 import { ReactComponent as Team } from '../assets/icons/team.svg';
 import { ReactComponent as Settings } from '../assets/icons/settings.svg';
+import { ReactComponent as Fire } from '../assets/icons/fire.svg';
 
 import NothingFound from '../assets/nothing-found.png';
 import MtnMomo from '../assets/mtn-momo.png';
@@ -108,5 +109,5 @@ export const Icons = {
 	PowerButton, EyeSlash, Waiting, CheckedSuccess,
 	ChevronDown, WinnerIcon, MenuIcon, ReloadIcon, Search, Report,
 	Books, Home2, Cart, Flow, Chart, Users, UserColored, Search2, PlusCircle, App, Secure, Logout,
-	Twitter, FourSquares, Tasks, Team, Settings
+	Twitter, FourSquares, Tasks, Team, Settings, Fire
 };

@@ -11,9 +11,9 @@ const IconText: React.FC<IconTextProps> = ({ icon, text }) => {
     return (
         <div className="icon-text-container">
             <span className="icon">{icon}</span>
-            <h2 className="text">
+            <h4 className="text">
                 {text}
-            </h2>
+            </h4>
         </div>
     );
 };
