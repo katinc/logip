@@ -3,7 +3,7 @@ import * as Icons from './Assets';
 import './navItem.css'
 
 interface IconTextProps {
-    icon: React.ReactNode;
+    icon: React.ReactNode; 
     text: string;
 }
 

@@ -11,6 +11,7 @@ function App() {
       <main className="main">
 
         <div className="rowDivs">
+
           <div className="leftnav">
             <div className="logo">
               <Icons.Twitter className="icon" />
