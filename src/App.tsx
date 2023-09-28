@@ -34,7 +34,7 @@ function App() {
             </div>
 
             <div>
-              <div >
+              <div className='footer'>
                 <IconText icon={<Icons.Settings />} text='Help & Documentation' />
                 <IconText icon={<Icons.Settings />} text='Log out' />
               </div>

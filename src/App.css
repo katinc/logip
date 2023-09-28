@@ -1,17 +1,22 @@
 html, body {
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: #e0dfdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
 .main {
   display: flex;
-  padding: 4rem;
-  min-height: auto;
-  background-color: #e0dfdf;
-  min-width: auto;
+  background-color: red;
+  height: 100vh;
+  padding: 100px;
+  align-items: center;
 }
 
 h2 {
@@ -25,18 +30,18 @@ h2 {
 
 .nav {
   background-color: #f2f1f1;
+
 }
 
 /* NAVIGATION AND LEFT PANE */
 .leftnav {
-  height: 90%;
-  width: 30vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
-  margin: 10px;
   background-color: #f2f1f1;
   border-radius: 2vh;
-  padding: 1.5rem;
+  width: 20%;
+  justify-content: space-between;
 }
 
 .logo {
@@ -44,6 +49,7 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 30px;
 }
 
 .logo h2 {
@@ -68,13 +74,14 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: auto;
+  margin: 30px;
 }
 
 .upgrade {
   background-color: white;
   border-radius: 2vh;
-  padding: 1rem;
+  margin: 30px;
+  height: 20vh;
 }
 
 .rightSection {
@@ -84,13 +91,16 @@ h2 {
   flex-direction: column;
 }
 
+.footer {
+  margin: 30px;
+}
+/* 
 .topbar {
   height: 10%;
   width: 100%;
   margin: 10px;
   background-color: #f2f1f1;
   border-radius: 2vh;
-  padding: 1rem;
 }
 
 .middleSection {
@@ -103,10 +113,8 @@ h2 {
 .leftMiddlebar {
   height: 100%;
   width: 50%;
-  margin: 10px;
   background-color: #f2f1f1;
   border-radius: 2vh;
-  padding: 1rem;
 }
 
 .rightMiddleSection {
@@ -122,7 +130,6 @@ h2 {
   margin: 10px;
   background-color: #f2f1f1;
   border-radius: 2vh;
-  padding: 1rem;
 }
 
 .bottomMiddlebar {
@@ -131,5 +138,4 @@ h2 {
   margin: 10px;
   background-color: #f2f1f1;
   border-radius: 2vh;
-  padding: 1rem;
-}
+} */

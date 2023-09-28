@@ -19,7 +19,6 @@ const Upgrade = () => {
                     Upgrade
                 </button>
             </div>
-
         </div>
     );
 };

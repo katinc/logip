@@ -16,10 +16,15 @@
 
 h3 {
     color: #937ea8;
+    text-align: center;
 }
 
 button {
     background-color: #b3d7f7;
     border-radius: 2vh;
-    color: black;
+    width: 18vh;
+}
+
+.body {
+    margin: 0 30px ;
 }
