@@ -62,6 +62,8 @@ import { ReactComponent as Tasks } from '../assets/icons/tasks.svg';
 import { ReactComponent as Team } from '../assets/icons/team.svg';
 import { ReactComponent as Settings } from '../assets/icons/settings.svg';
 import { ReactComponent as Fire } from '../assets/icons/fire.svg';
+import { ReactComponent as Message } from '../assets/icons/message.svg';
+import { ReactComponent as Alert } from '../assets/icons/alert.svg';
 
 import NothingFound from '../assets/nothing-found.png';
 import MtnMomo from '../assets/mtn-momo.png';
@@ -109,5 +111,5 @@ export const Icons = {
 	PowerButton, EyeSlash, Waiting, CheckedSuccess,
 	ChevronDown, WinnerIcon, MenuIcon, ReloadIcon, Search, Report,
 	Books, Home2, Cart, Flow, Chart, Users, UserColored, Search2, PlusCircle, App, Secure, Logout,
-	Twitter, FourSquares, Tasks, Team, Settings, Fire
+	Twitter, FourSquares, Tasks, Team, Settings, Fire, Message, Alert
 };

@@ -43,9 +43,30 @@ function App() {
 
           <div className="rightSection">
             <div className="topbar">
-              <h2 >
-                Margaret Fletcher
-              </h2>
+              <div className='top-left'>
+                <div className='profilepicture'>
+                  {/* <img src='' /> */}
+                </div>
+                <div className='userprofile'>
+                  <h2>Margaret Fletcher</h2>
+                  <h4>Project Manager</h4>
+                </div>
+                <div >
+                  <IconText icon={<Icons.Calendar />} text='27 Feb' />
+                </div>
+              </div>
+
+              <div className='top-right'>
+                <div>
+                  <IconText icon={<Icons.Search2 />} text='' />
+                  <input type="text" />
+                </div>
+                <div className='alert-message'>
+                  <IconText icon={<Icons.Alert />} text='' />
+                  <IconText icon={<Icons.Message />} text='' />
+                </div>
+              </div>
+
             </div>
             <div className="middleSection">
               <div className="leftMiddlebar">

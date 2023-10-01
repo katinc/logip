@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -10,10 +11,18 @@ html, body {
   justify-content: center;
 }
 
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
 
 .main {
   display: flex;
-  background-color: red;
+  /* background-color: red; */
   height: 100vh;
   padding: 100px;
   align-items: center;
@@ -98,9 +107,66 @@ h2 {
   height: 10%;
   width: 100%;
   margin: 0 30px;
-  padding: 0 30px;
+  padding: 0 20px;
   background-color: #f2f1f1;
   border-radius: 1.5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-left {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+}
+
+.profilepicture {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px 0 0;
+}
+
+.profilepicture img {
+  width: 100%;
+  height: 100%;
+}
+
+.userprofile {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 60%;
+  height: 70%;
+  margin: 0;
+  padding: 0;
+}
+
+.userprofile h4 {
+  color: #937ea8;
+  text-align: center;
+  font-weight: bold;
+}
+
+.top-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-left input {
+  background-color: red;
+  color: red;
+}
+
+.alert-message {
+  display: flex;
+  flex-direction: row;
 }
 
 .middleSection {
@@ -109,7 +175,7 @@ h2 {
   height: 100%;
   width: 100%;
   margin: 30px 0 0 30px;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .leftMiddlebar {
@@ -117,20 +183,20 @@ h2 {
   background-color: #f2f1f1;
   border-radius: 1.5vh;
   padding-right: 60px;
-  
+
 }
 
 .rightMiddleSection {
   width: 50%;
   display: flex;
   flex-direction: column;
-  background-color: violet;
-  padding: 60px;
+  /* background-color: violet; */
+  /* padding: 60px; */
   border-radius: 1.5vh;
 
 }
 
-/* .topMiddlebar {
+.topMiddlebar {
   height: 50%;
   width: 100%;
   margin: 10px;
@@ -144,4 +210,4 @@ h2 {
   margin: 10px;
   background-color: #f2f1f1;
   border-radius: 2vh;
-}  */
+}
