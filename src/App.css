@@ -37,61 +37,6 @@ h2 {
   flex-direction: row;
 }
 
-.nav {
-  background-color: #f2f1f1;
-}
-
-/* NAVIGATION AND LEFT PANE */
-.leftnav {
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  background-color: #f2f1f1;
-  border-radius: 2vh;
-  width: 20%;
-  justify-content: space-between;
-}
-
-.logo {
-  height: 5%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 30px;
-}
-
-.logo h2 {
-  color: #272e4e;
-}
-
-.logo .icon {
-  width: 50px;
-  height: 50px;
-}
-
-.icon {
-  width: 18px;
-  height: 18px;
-}
-
-.nav h2 {
-  color: #292727;
-}
-
-.home {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 30px;
-}
-
-.upgrade {
-  background-color: white;
-  border-radius: 2vh;
-  margin: 30px;
-  height: 20vh;
-}
-
 .rightSection {
   height: 90vh;
   width: 100vh;
@@ -183,7 +128,6 @@ h2 {
   background-color: #f2f1f1;
   border-radius: 1.5vh;
   padding-right: 60px;
-
 }
 
 .rightMiddleSection {
@@ -193,7 +137,6 @@ h2 {
   /* background-color: violet; */
   /* padding: 60px; */
   border-radius: 1.5vh;
-
 }
 
 .topMiddlebar {

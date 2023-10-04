@@ -1,5 +1,5 @@
 import React from 'react';
-import './upgrade.css'
+import '../App.css'
 import { Icons } from './Assets'
 
 const Upgrade = () => {

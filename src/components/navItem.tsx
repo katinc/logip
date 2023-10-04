@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Icons from './Assets';
-import './navItem.css'
+import './css/navItem.css'
 
 interface IconTextProps {
     icon: React.ReactNode; 
